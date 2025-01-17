@@ -1,4 +1,22 @@
 {
+  "name": "vocabulearn",
+  "version": "1.0.0",
+  "description": "Learn English Vocabulary with VocabuLearn",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylegilber/lexilet.git"
+  },
+  "author": "kylegilber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylegilber/lexilet/issues"
+  },
+  "homepage": "https://github.com/kylegilber/lexilet#readme",
   "dependencies": {
     "sass": "^1.83.4"
   }
