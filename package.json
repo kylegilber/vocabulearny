@@ -1,8 +1,14 @@
 {
-  "name": "vocabulearn",
+  "name": "vocabulearny",
   "version": "1.0.0",
-  "description": "Learn English Vocabulary with VocabuLearn",
+  "description": "Learn English Vocabulary with Vocabulearny",
   "main": "index.js",
+  "author": "kylegilber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylegilber/lexilet/issues"
+  },
+  "homepage": "https://github.com/kylegilber/lexilet#readme",
   "scripts": {
     "dev": "parcel src/html/index.html",
     "build": "parcel build src/html/index.html"
@@ -11,12 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/kylegilber/lexilet.git"
   },
-  "author": "kylegilber",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kylegilber/lexilet/issues"
-  },
-  "homepage": "https://github.com/kylegilber/lexilet#readme",
   "dependencies": {
     "parcel": "^2.13.3",
     "sass": "^1.83.4"
