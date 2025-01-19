@@ -10,7 +10,7 @@
   },
   "homepage": "https://github.com/kylegilber/vocabulearny#readme",
   "scripts": {
-    "dev": "parcel src/html/index.html",
+    "dev": "parcel src/index.html",
     "build": "parcel build src/html/index.html"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "dependencies": {
     "parcel": "^2.13.3",
     "sass": "^1.83.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3"
   }
 }
