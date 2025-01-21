@@ -1,6 +1,25 @@
-.homepage {
-  background: #eee;
-  font-family: Courier New, Courier, monospace;
-  font-size: 1rem;
+@font-face {
+  font-family: "EB Garamond", serif;
+  src: url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+}
+
+body {
+  color: #444;
+  caret-color: #444;
+  background-color: #eee;
+  margin: 3% 10%;
+}
+
+.user-input, :focus {
+  color: #444;
+  caret-color: #444;
+  text-align: left;
+  background-color: #eee;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: EB Garamond, serif;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 /*# sourceMappingURL=index.b07a87f3.css.map */

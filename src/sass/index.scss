@@ -1,0 +1,32 @@
+@import "fonts";
+
+// themes
+$theme-original: #EEE, #444, #DDD;
+
+@mixin color-scheme($primary, $secondary, $tertiary) {
+    
+    background-color: $primary;
+    color: $secondary;
+    caret-color: $secondary;
+}
+
+body {
+    @include color-scheme($theme-original ...);
+
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.user-input, :focus {
+    @include color-scheme($theme-original ...);
+
+    border: none;
+    outline: none;
+    font-family: "EB Garamond", serif; // allow user to select font
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+}
