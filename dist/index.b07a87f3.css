@@ -10,16 +10,36 @@ body {
   margin: 3% 10%;
 }
 
-.user-input, :focus {
+body ::placeholder {
+  color: #b2b2b2;
+}
+
+.word {
   color: #444;
   caret-color: #444;
-  text-align: left;
   background-color: #eee;
   border: none;
   outline: none;
   width: 100%;
-  font-family: EB Garamond, serif;
-  font-size: 1.25rem;
+  font-family: garamond, serif;
+  font-size: 2rem;
   font-weight: 400;
+}
+
+.word ::placeholder {
+  color: #b2b2b2;
+}
+
+.definition {
+  color: #444;
+  caret-color: #444;
+  background-color: #eee;
+  font-family: garamond, serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.definition ::placeholder {
+  color: #b2b2b2;
 }
 /*# sourceMappingURL=index.b07a87f3.css.map */

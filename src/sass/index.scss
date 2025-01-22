@@ -1,13 +1,24 @@
 @import "fonts";
 
 // themes
-$theme-original: #EEE, #444, #DDD;
+$theme-original: #EEEEEE, #444, #B2B2B2;
+
+//fonts
+$font-garamond: "garamond", serif;
 
 @mixin color-scheme($primary, $secondary, $tertiary) {
-    
     background-color: $primary;
     color: $secondary;
     caret-color: $secondary;
+    ::placeholder {
+        color: $tertiary
+    }
+}
+
+@mixin font-scheme($font: "Georgia", $family: Times, $generic: serif) {
+    font-family: $font, $family, $generic;
+    font-weight: 400;
+    font-size: 2rem;
 }
 
 body {
@@ -19,14 +30,18 @@ body {
     margin-bottom: 3%;
 }
 
-.user-input, :focus {
+.word {
     @include color-scheme($theme-original ...);
+    @include font-scheme($font-garamond ...);
 
-    border: none;
     outline: none;
-    font-family: "EB Garamond", serif; // allow user to select font
-    font-size: 1.25rem;
-    font-weight: 400;
+    border: none;
     width: 100%;
-    text-align: left;
 }
+
+.definition {
+    @include color-scheme($theme-original ...);
+    @include font-scheme($font-garamond ...);
+
+}
+
