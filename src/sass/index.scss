@@ -30,18 +30,12 @@ body {
     margin-bottom: 3%;
 }
 
-.word {
+input {
     @include color-scheme($theme-original ...);
     @include font-scheme($font-garamond ...);
 
     outline: none;
     border: none;
     width: 100%;
-}
-
-.definition {
-    @include color-scheme($theme-original ...);
-    @include font-scheme($font-garamond ...);
-
 }
 

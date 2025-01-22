@@ -14,7 +14,7 @@ body ::placeholder {
   color: #b2b2b2;
 }
 
-.word {
+input {
   color: #444;
   caret-color: #444;
   background-color: #eee;
@@ -26,20 +26,7 @@ body ::placeholder {
   font-weight: 400;
 }
 
-.word ::placeholder {
-  color: #b2b2b2;
-}
-
-.definition {
-  color: #444;
-  caret-color: #444;
-  background-color: #eee;
-  font-family: garamond, serif;
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-.definition ::placeholder {
+input ::placeholder {
   color: #b2b2b2;
 }
 /*# sourceMappingURL=index.b07a87f3.css.map */
