@@ -32,8 +32,7 @@ input ::placeholder {
   color: #b2b2b2;
 }
 
-.footer .linkedin:before {
-  content: "";
+.icon:before {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -41,5 +40,9 @@ input ::placeholder {
   font-style: normal;
   font-weight: 300;
   display: inline-block;
+}
+
+.footer .linkedin:before {
+  content: "";
 }
 /*# sourceMappingURL=index.b07a87f3.css.map */
