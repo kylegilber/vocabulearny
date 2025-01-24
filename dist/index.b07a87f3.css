@@ -28,8 +28,14 @@ input {
   font-weight: 400;
 }
 
-input ::placeholder, .icon {
+input ::placeholder {
   color: #b2b2b2;
+}
+
+.icon {
+  color: #b2b2b2;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .icon:hover {
@@ -48,5 +54,9 @@ input ::placeholder, .icon {
 
 .footer .linkedin:before {
   content: "";
+}
+
+.footer .github:before {
+  content: "";
 }
 /*# sourceMappingURL=index.b07a87f3.css.map */

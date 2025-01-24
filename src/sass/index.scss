@@ -44,6 +44,8 @@ input {
 
 .icon {
     color: #B2B2B2;
+    text-decoration: none;
+    font-size: 1.2rem;
 
     &:hover {
         color: #444;
@@ -64,6 +66,10 @@ input {
     
     .linkedin::before {
         content: '\f08c';
+    }
+
+    .github::before {
+        content: '\f09b'
     }
 }
 
