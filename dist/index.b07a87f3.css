@@ -28,8 +28,12 @@ input {
   font-weight: 400;
 }
 
-input ::placeholder {
+input ::placeholder, .icon {
   color: #b2b2b2;
+}
+
+.icon:hover {
+  color: #444;
 }
 
 .icon:before {

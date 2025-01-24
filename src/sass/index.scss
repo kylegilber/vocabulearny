@@ -41,14 +41,23 @@ input {
     width: 100%;
 }
 
-.icon::before {
-    font-family: 'Font Awesome 5 Brands';
-    font-weight: 300;
-    font-style: normal;
-    font-variant: normal;
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+
+.icon {
+    color: #B2B2B2;
+
+    &:hover {
+        color: #444;
+    }
+
+    &::before {
+        font-family: 'Font Awesome 5 Brands';
+        font-weight: 300;
+        font-style: normal;
+        font-variant: normal;
+        display: inline-block;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
 }
 
 .footer {
