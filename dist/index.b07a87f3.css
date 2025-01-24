@@ -17,16 +17,29 @@ body ::placeholder {
 input {
   color: #444;
   caret-color: #444;
+  font-variant: normal;
   background-color: #eee;
   border: none;
   outline: none;
   width: 100%;
   font-family: garamond, serif;
   font-size: 2rem;
+  font-style: normal;
   font-weight: 400;
 }
 
 input ::placeholder {
   color: #b2b2b2;
+}
+
+.footer .linkedin:before {
+  content: "";
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 300;
+  display: inline-block;
 }
 /*# sourceMappingURL=index.b07a87f3.css.map */
