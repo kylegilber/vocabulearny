@@ -46,17 +46,31 @@ input ::placeholder {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  font-family: "Font Awesome 5 Brands";
+  font-family: "Font Awesome 6 Brands";
   font-style: normal;
   font-weight: 300;
   display: inline-block;
 }
 
-.footer .linkedin:before {
+footer .linkedin:before {
   content: "";
 }
 
-.footer .github:before {
+footer .github:before {
   content: "";
+}
+
+footer .paint:before {
+  content: "";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 800;
+}
+
+footer .text {
+  font-variant: normal;
+  font-family: garamond, serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
 }
 /*# sourceMappingURL=index.b07a87f3.css.map */

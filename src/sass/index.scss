@@ -52,7 +52,7 @@ input {
     }
 
     &::before {
-        font-family: 'Font Awesome 5 Brands';
+        font-family: 'Font Awesome 6 Brands';
         font-weight: 300;
         font-style: normal;
         font-variant: normal;
@@ -62,14 +62,27 @@ input {
     }
 }
 
-.footer {
-    
+footer {
+
     .linkedin::before {
         content: '\f08c';
     }
 
     .github::before {
         content: '\f09b'
+    }
+
+    .paint::before {
+        content: '\f5aa';
+        font-family: 'Font Awesome 6 Free';
+        font-weight: 800;
+    }
+
+    .text {
+        @include font-scheme($font-garamond ...);
+
+        font-size: 1.2rem;
+        font-weight: 400;
     }
 }
 
