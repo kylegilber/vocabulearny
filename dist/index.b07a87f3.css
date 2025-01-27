@@ -32,6 +32,18 @@ input ::placeholder {
   color: #b2b2b2;
 }
 
+button {
+  font-variant: normal;
+  cursor: pointer;
+  border: none;
+  font-family: garamond, serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  background: none !important;
+  padding: 0 !important;
+}
+
 .icon {
   color: #b2b2b2;
   font-size: 1.2rem;
@@ -64,13 +76,5 @@ footer .paint:before {
   content: "";
   font-family: "Font Awesome 6 Free";
   font-weight: 800;
-}
-
-footer .text {
-  font-variant: normal;
-  font-family: garamond, serif;
-  font-size: 1.2rem;
-  font-style: normal;
-  font-weight: 400;
 }
 /*# sourceMappingURL=index.b07a87f3.css.map */
